@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonride",
+  "version": "${version}",
+  "name": "Dragon Ride",
+  "description": "Adds /dragonride, which summons a no-AI ender dragon, scales it to 0.25 via the scale attribute, and seats you on it. Includes the client render mixin that makes the scale attribute actually shrink the dragon (vanilla ignores it for the dragon).",
+  "authors": ["Cameron"],
+  "contact": {},
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      { "adapter": "kotlin", "value": "dev.dragonride.DragonRideMod" }
+    ]
+  },
+  "mixins": [
+    "dragonride.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13"
+  }
+}
