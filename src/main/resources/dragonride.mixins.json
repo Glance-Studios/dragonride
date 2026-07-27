@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.dragonride.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityScaleMixin"
+  ],
+  "client": [
+    "EnderDragonRendererMixin",
+    "EnderDragonRenderStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
