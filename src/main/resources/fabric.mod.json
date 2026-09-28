@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Dragon Ride",
   "description": "Adds /dragonride, which summons a no-AI ender dragon, scales it to 0.25 via the scale attribute, and seats you on it. Includes the client render mixin that makes the scale attribute actually shrink the dragon (vanilla ignores it for the dragon).",
-  "authors": ["Cameron"],
+  "authors": ["Glance Studios"],
   "contact": {},
   "license": "ARR",
   "environment": "*",
